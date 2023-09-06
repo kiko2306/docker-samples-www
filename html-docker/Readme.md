@@ -1,9 +1,9 @@
 # Docker
 
-# Build img
+# Start
 
-* docker build -t my-nginx .
+* docker compose up -d
 
-# Run img
+# Stop
 
-* docker run -p 80:80 my-nginx
+* docker compose down
